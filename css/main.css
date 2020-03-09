@@ -43,8 +43,6 @@ li a:hover	{	background-color: #fff;
 
 div		{	padding: 5px;	}
 
-
-
 footer {	width: 100%;
 					position: fixed;
 					bottom: 0;
@@ -68,11 +66,40 @@ footer img {	background-color: #fff;
 #map	{	text-align: center;
 				padding: 5%;	}
 
+.radio	{	font-family: 'Slabo 27px', serif;
+					text-align: center;
+					font-weight: bold;
+					font-size: 1.5em;
+					margin: 20px;
+					padding: 30px 20px;
+					border-radius: 3px;
+					max-width: 300px;	}
+
+.radio	a	{	text-decoration: none;
+						color: #fff;	}
+
+#WSON		{	background-image: radial-gradient(#fa2d45, #960012);	}
+#WMSK		{	background-image: radial-gradient(#4b94fa, #0244a1);	}
 
 /****** RESPONSIVE *******/
 @media screen and (min-width: 480px) {
 
-}
+h1		{	background-image: linear-gradient(to right, white, green, blue);	}
+
+header	li	{	float: right;
+							margin: 0;
+							padding: 5px;	}
+
+iframe	{	float: right;
+					width: 400px;
+					height: 300px;	}
+
+#logo	{	float: left;
+				width: 50%;	}
+
+#radio	img	{ height: 150px;	}
+#radio	li	a	{	list-style-type: none;
+								width: 150px;	}	}
 
 @media screen and (min-width: 760px) {
 
